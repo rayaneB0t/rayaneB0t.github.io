@@ -200,7 +200,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #faf8f8;
+  background: #ebebebde;
   overflow-y: auto;
 }
 
@@ -308,7 +308,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #f1f1f1;
 }
 
 .nav-menu a:hover,
@@ -434,32 +434,32 @@ section {
 }
 
 .section-bg {
-  background: #faf8f8;
+  background: #f1f1f1;
 }
 
 .section-title {
   padding-bottom: 30px;
   text-align: center;
 }
-
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #000000;
 }
 
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 112px;
   height: 3px;
-  background: #149ddd;
+  background: #000000;
   bottom: 0;
-  left: 50%;
+  left: 50%; /* Adjusted to center the line */
+  transform: translateX(-50%); /* Shift the line half of its width to the left to center it */
 }
 
 .section-title p {

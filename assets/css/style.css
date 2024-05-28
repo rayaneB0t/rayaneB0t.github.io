@@ -308,7 +308,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #f1f1f1;
+  color: #000000;
 }
 
 .nav-menu a:hover,

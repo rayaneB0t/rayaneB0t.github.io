@@ -45,6 +45,19 @@ h6 {
   height: auto;
 }
 
+
+/*------------------------------------- 
+              Logo Background
+---------------------------------------*/
+.education-logo {
+  width: 20px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+  vertical-align: middle; /* Align the logo with the text */
+}
+
+
+
 /*------------------------------------- 
               BLOG
 ---------------------------------------*/

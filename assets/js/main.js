@@ -4,6 +4,16 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+/** Pixel button **/
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('pixelButton').addEventListener('click', function() {
+      document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+
 (function() {
   "use strict";
 
@@ -246,7 +256,7 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 400,
       easing: 'ease-in-out',
       once: true,
       mirror: false

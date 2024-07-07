@@ -399,6 +399,59 @@ h6 {
   line-height: 0;
 }
 
+/* ----------------------- QUOTE -----------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.1em;
+  width:60%;
+  margin:left;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid rgb(0, 0, 0) ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#000000;
+  font-size:6em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.motto-container {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.motto-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -554,7 +607,7 @@ section {
 
 .works .count-box span {
   font-size: 35px;
-  line-height: 41px;
+  line-height: 40px;
   display: block;
   font-weight: 700;
   color: #050d18;
@@ -564,8 +617,8 @@ section {
   padding: 15px 0 0 0;
   margin: 0; /* Remove left margin */
   font-family: "Raleway", sans-serif;
-  font-size: 30px; /* Increase font size */
-  color: #122f57;
+  font-size: 26px; /* Increase font size */
+   color: #122f57;
 }
 
 
@@ -874,6 +927,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  background-color: rgb(241,241, 241);
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -930,4 +987,12 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+
+/*--------------------------------------------------------------
+# achivements
+--------------------------------------------------------------*/
+.achivements {
+  background-color: rgb(241,241, 241);
 }

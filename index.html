@@ -51,9 +51,9 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bi bi-person-circle"></i><span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-file-earmark-person-fill"></i><span>Professional Experience</span></a></li>
           <li><a href="#publications" class="nav-link scrollto"><i class="bi bi-file-earmark-text"></i> <span>Publication</span></a></li>
-          <li><a href="#projects" class="nav-link scrollto"><i class="bi bi-folder-check"></i> <span>Projects</span></a></li>
           <li><a href="#certifications" class="nav-link scrollto"><i class="bi bi-patch-check"></i> <span>Certifications</span></a></li>
           <li><a href="#achivements" class="nav-link scrollto"><i class="bi bi-award"></i> <span>Honors & Awards</span></a></li>
+          <li><a href="#projects" class="nav-link scrollto"><i class="bi bi-folder-check"></i> <span>Projects</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -92,10 +92,12 @@
 
         <div class="section-title">
           <h2><span class="underlight">About</h2></span>
-		<p> 👋 Hi! I'm a research assistant at the National Robotarium with a Master's degree in Artificial Intelligence. 
-			I specialize in Large Language Models (LLMs) and Generative AI. I've worked at prestigious research centers, 
-			contributing to innovative projects and advancing technology to solve complex problems. I'm passionate about 
-			using AI to improve our world. ❤️</p>
+            <p class="justify-text" style="font-size: 18px;"> 👋 Hi! I'm a research assistant at the National Robotarium with a Master's degree in Artificial Intelligence. 
+              I specialize in Large Language Models (LLMs) and Generative AI. I've worked at prestigious research centers, 
+              contributing to innovative projects and advancing technology to solve complex problems. </p>
+              <div> 
+
+              </div>
           <div class="container" data-aos="fade-up" data-aos-delay="100">
 
             <br>
@@ -121,7 +123,7 @@
                         <div class="count-box">
                           <i class="bi bi-folder-check"></i>
                           <p><strong>End-to-End Projects</strong></p>
-                          <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="0" class="purecounter"></span>
+                          <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0" class="purecounter"></span>
                           
                         </div>
                       </div>
@@ -133,26 +135,14 @@
     <section id="resume" class="resume">
       
       <div class="container">
-
         <div class="section-title">
           <h2><span class="underlight">Professional Experience</span></h2>
         </div>
 
-                  <!-- <p> Data Scientist and AI graduate from Heriot-Watt University with master in AI, with a strong background in data analysis, machine learning with experience in SQL database.
-            <br> Currently seeking opportunities to advance my career in data analytics and machine learning, eager to leverage my skills in Data Analysis and Visualization, Machine learning algorithms and Exploratory data analysis.
-              <br> Feel free to reach out for networking or collaboration opportunities! 🚀 
-          <br>
-                  </p>
-                </div>
-              </div> -->
-
-            </div>
-            <p> </p>
-
           <!-- ======= Resume Section ======= -->
     <div class="container">
         <div class="row">
-          <div class="col-lg-5" data-aos="fade-up">
+          <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4><img src="assets/img/HWLogo.png" class="education-logo" alt="Logo">
@@ -169,7 +159,7 @@
               <p>Rank: Top 10</p>
             </div>
           </div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
 		  
             <div class="resume-item">
@@ -177,6 +167,9 @@
 		AI Research Intern</h4>
               <h5>June 2024 – Present </h5>
               <p><em> The National Robotarium - UK </em></p>
+              <p class="justify-text">Developed a RAG-powered chatbot to assist with questions about lab robots, research, applications, and
+                ethical considerations, designed for embedding in robots and web applications, using a locally trained LLM on
+                servers.</p>
 		     </div>
 		  
 	<div class="resume-item">    
@@ -184,11 +177,17 @@
 		Junior Data Analyst</h4>
               <h5>Nov 2021 – Mar 2022</h5>
               <p><em>ATOS - FR </em></p>
+              <p class="justify-text"> Led the development of strategic dashboards using Splunk’s AI-based framework with Occitanie Region logs,
+                significantly boosting Splunk adoption.
+                • Enhanced predictive accuracy by 40% through advanced proficiency in SPL and MLTK, applying time series
+                forecasting, feature extraction, and automated reporting from SQL databases.</p>
 	</div>
 		  <div class="resume-item"> 
 	<h4>Front End Developer</h4>
               <h5>Jul 2020 - Oct 2020</h5>
               <p><em>Big Data Services - FR </em></p>
+              <p class="justify-text"> Utilized Joomla to enhance the website’s user experience by implementing front-end improvements and opti-
+                mizations, resulting in a 25% increase in customer satisfaction. </p>
 		  </div>
             </div>
           </div>
@@ -229,125 +228,6 @@
         
     </section>
     <!-- End Publication Section -->
-
-
-
-
-
-
-
-    <!-- ======= Projects Section ======= -->
-      <section id="projects" class="section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2><span class="underlight">Projects</h2></span>
-          </div>
-
-          <div class="blog-grid">
-
-            <!-- Blog Post 1 -->
-            <div class="blog-item">
-              <h3>Study on Trust by Integrating ChatGPT to Enhance Human-Robot Interaction (Fuhrat Robot)</h3>
-              <img src="assets/img/robotatlas.png" alt="Blog Post 1">
-              <h5>[Kotlin | NLP | GPT | Hyperparameters]</h5>
-              <p> The AI-Powered Trip Personal Assistant, named the "Atlas robot," focuses on 
-                <b>integrating ChatGPT3</b> to enhance the user experience in trip planning. 
-                Key areas covered include <b>Natural Language Processing (NLP)</b> for <b>voice commands</b>,
-                 <b>speech and voice recognition</b>, and <b>intent recognition</b>. The project incorporates 
-                 a <b>recommendation system</b> to offer personalized suggestions, catering to individual 
-                 preferences. The overarching goal is to revolutionize the way users engage with technology 
-                 during their journeys, providing a seamless and personalized travel assistant. </p>
-
-              <div class="button-container">
-                <a href="https://github.com/rayaneB0t/AI-Powered-Trip-Personal-Assistant.git" class="btn">Github Link</a>
-              </div>
-            </div>
-
-            <!-- Blog Post 2 -->
-            <div class="blog-item">
-              <h3>Machine Translation with Deep Neural Networks</h3>
-              <img src="assets/img/translt2.png" alt="Blog Post 2">
-              <h5>[Kotlin | NLP | GPT | Hyperparameters]</h5>
-              <p> 
-                Implemented a machine translation system from English to French using <b>Deep Neural Networks</b> and <b>Keras</b>.
-                Executed <b>data pre-processing</b> raw text data by <b>tokenizing, padding, lowercasing, and splitting</b> validation
-                and test sets to facilitate training and improve translation accuracy. 
-                Used and trained an <b>Encoder-Decoder</b> model using <b>GRU cells</b> with two layers for both the encoder and the decoder. 
-                This model incorporates <b>embedding, bidirectional RNNs,</b> and <b>time-distributed dense layers</b> for predicting each word in the output sequence. 
-                Trained and evaluated an alternative model with a similar architecture but using <b>LSTM (Long Short-Term Memory) cells</b> instead of GRU cells.
-                </p>
-
-              <div class="button-container">
-                <a href="https://github.com/rayaneB0t/English-to-French-Translator.git" class="btn">Github Link</a>
-              </div>
-            </div>
-
-            <!-- Blog Post 3 -->
-            <div class="blog-item">
-              <h3>Financial News Headline Sentiment Analysis</h3>
-              <img src="assets/img/sentiment.png" alt="Blog Post 3">
-              <h5>[Kotlin | NLP | GPT | Hyperparameters]</h5>
-              <p>This project involves Sentiment Analysis of Financial News using the <b>Natural Language Toolkit (NLTK)</b>.
-								The goal is to <b>predict sentiment in financial news</b>, and the dataset includes three CSV files 
-								containing headlines from CNBC, The Guardian, and Reuters. NLTK, a platform for Python, is 
-								employed for <b>text processing tasks</b> such as tokenization, parsing, classification, stemming, 
-								tagging, and semantic reasoning. Sentiment analysis, the process of <b>identifying positive or 
-									negative sentiment</b> in text, is crucial for businesses to assess social data, manage brand 
-								reputation, and comprehend customer sentiments.</p>
-              
-              <div class="button-container">
-                <a href="https://github.com/rayaneB0t/Financial-News-Sentiment-Analysis-using-NLTK.git" class="btn">Github Link</a>
-              </div>
-            </div>
-
-             <!-- Blog Post 4 -->
-             <div class="blog-item">
-              <h3>2023 Africa Cup Data Analytics</h3>
-              <img src="assets/img/CANAfrica.png" alt="Blog Post 4">
-              <h5>[Python | Web scrapping | Pandas | Power BI]</h5>
-              <p>Created a Power Bl report to identify top 11 players for a CAN23 football team by <b>scraping data</b> from FBREF with a <b>BeautifulSoup tool</b>, cleaning and transforming the data with pandas, and evaluating various player performance metrics.
-              Established relationships between tables in data modelling using <b>DAX measures</b> to facilitate <b>data analysis and visualization</b>. Created DAX measures and calculated columns to perform <b>aggregations</b> and <b>derive additional insights</b> from the dataset.
-              Used the resulting <b>Power Bl dashboard</b> to select players for various categories (Goalkeeper, Defenders, Midfielders, Forwards) and ultimately choose the top 11 players to play.</p>
-              
-              <!-- <div class="button-container">
-                <a href="#" class="btn">Read More</a>
-              </div> -->
-            </div>
-
-            <!-- Blog Post 5 -->
-            <div class="blog-item">
-              <h3>ML-Based Web Application for Image Classification</h3>
-              <img src="assets/img/sport.jpg" alt="Blog Post 5">
-              <h5>[Web scrapping | OpenCV | Flask server | UI]</h5>
-              <p>Conceptualized a framework for classifying sports celebrity image from web scraping to collect images. Executed <b>data pre-processing</b> through <b>OpenCV library</b> for face and eyes detection and Haar cascade classifiers technique, to eliminate image that didn’t contains at least two eyes; using <b>SVM, logistic regression and random
-                forest</b>, for evaluating model performance. Building the <b>user interface (UI) website</b> with <b>HTML, CSS, JavaScript, and jQuery</b>, integrating a drag-and-drop feature for users to upload sports celebrity images. Utilizing <b>AJAX</b> to communicate with the <b>Python Flask</b> backend for image classification and presenting the classification results on the UI.</p>
-              
-              <!-- <div class="button-container">
-                <a href="#" class="btn">Read More</a>
-              </div> -->
-            </div>
-
-            <!-- Blog Post 6 -->
-            <div class="blog-item">
-              <h3>HR Employee attrition PowerBI Dashboard </h3>
-              <img src="assets/img/HR_EMPLOYEE_PowerBI.PNG" alt="Blog Post 6">
-              <h5>[Power BI | DAX | KPI | Visualisation]</h5>
-              <p>The dataset focuses on HR employee attrition, highlighting key attributes such as age, department, gender, hourly rate, 
-                job role and performance rating. Power BI leverages these attributes for insightful analysis through <b> Data Analysis 
-                  Expressions (DAX)</b>, enabling the creation of <b>dynamic visualizations, dashboards, and reports</b>. This integration 
-                  with Power BI allows for the development of specific <b>Key Performance Indicators (KPIs) </b> that offer nuanced insights 
-                into workforce dynamics.</p>
-              
-              <div class="button-container">
-                <a href="https://github.com/rayaneB0t/PowerBI-HR-employee-attrition.git" class="btn">Github Link</a>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </section>
-    </section><!-- End Projects Section -->
 
     <!-- ======= Certifications Section ======= -->
     <section id="certifications" class="certifications">
@@ -398,7 +278,111 @@
       </section>  
     </section><!-- End Achievments Section -->
 
-    
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="underlight">Projects</h2></span>
+        </div>
+        <div class="blog-grid">
+
+          <!-- Blog Post 1 -->
+          <div class="blog-item">
+            <h3>Study on Trust by Integrating ChatGPT to Enhance Human-Robot Interaction (Fuhrat Robot)</h3>
+            <img src="assets/img/robotatlas.png" alt="Blog Post 1">
+            <h5>[Kotlin | NLP | GPT | Hyperparameters]</h5>
+            <p> The AI-Powered Trip Personal Assistant, named the "Atlas robot," focuses on 
+              <b>integrating ChatGPT3</b> to enhance the user experience in trip planning. 
+              Key areas covered include <b>Natural Language Processing (NLP)</b> for <b>voice commands</b>,
+               <b>speech and voice recognition</b>, and <b>intent recognition</b>. The project incorporates 
+               a <b>recommendation system</b> to offer personalized suggestions, catering to individual 
+               preferences. The overarching goal is to revolutionize the way users engage with technology 
+               during their journeys, providing a seamless and personalized travel assistant. </p>
+
+            <div class="button-container">
+              <a href="https://github.com/rayaneB0t/AI-Powered-Trip-Personal-Assistant.git" class="btn">Github Link</a>
+            </div>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="blog-item">
+            <h3>Machine Translation with Deep Neural Networks</h3>
+            <img src="assets/img/translt2.png" alt="Blog Post 2">
+            <h5>[Kotlin | NLP | GPT | Hyperparameters]</h5>
+            <p> 
+              Implemented a machine translation system from English to French using <b>Deep Neural Networks</b> and <b>Keras</b>.
+              Executed <b>data pre-processing</b> raw text data by <b>tokenizing, padding, lowercasing, and splitting</b> validation
+              and test sets to facilitate training and improve translation accuracy. 
+              Used and trained an <b>Encoder-Decoder</b> model using <b>GRU cells</b> with two layers for both the encoder and the decoder. 
+              This model incorporates <b>embedding, bidirectional RNNs,</b> and <b>time-distributed dense layers</b> for predicting each word in the output sequence. 
+              Trained and evaluated an alternative model with a similar architecture but using <b>LSTM (Long Short-Term Memory) cells</b> instead of GRU cells.
+              </p>
+
+            <div class="button-container">
+              <a href="https://github.com/rayaneB0t/English-to-French-Translator.git" class="btn">Github Link</a>
+            </div>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div class="blog-item">
+            <h3>Financial News Headline Sentiment Analysis</h3>
+            <img src="assets/img/sentiment.png" alt="Blog Post 3">
+            <h5>[Kotlin | NLP | GPT | Hyperparameters]</h5>
+            <p>This project involves Sentiment Analysis of Financial News using the <b>Natural Language Toolkit (NLTK)</b>.
+              The goal is to <b>predict sentiment in financial news</b>, and the dataset includes three CSV files 
+              containing headlines from CNBC, The Guardian, and Reuters. NLTK, a platform for Python, is 
+              employed for <b>text processing tasks</b> such as tokenization, parsing, classification, stemming, 
+              tagging, and semantic reasoning. Sentiment analysis, the process of <b>identifying positive or 
+                negative sentiment</b> in text, is crucial for businesses to assess social data, manage brand 
+              reputation, and comprehend customer sentiments.</p>
+            
+            <div class="button-container">
+              <a href="https://github.com/rayaneB0t/Financial-News-Sentiment-Analysis-using-NLTK.git" class="btn">Github Link</a>
+            </div>
+          </div>
+
+           <!-- Blog Post 4
+           <div class="blog-item">
+            <h3>2023 Africa Cup Data Analytics</h3>
+            <img src="assets/img/CANAfrica.png" alt="Blog Post 4">
+            <h5>[Python | Web scrapping | Pandas | Power BI]</h5>
+            <p>Created a Power Bl report to identify top 11 players for a CAN23 football team by <b>scraping data</b> from FBREF with a <b>BeautifulSoup tool</b>, cleaning and transforming the data with pandas, and evaluating various player performance metrics.
+            Established relationships between tables in data modelling using <b>DAX measures</b> to facilitate <b>data analysis and visualization</b>. Created DAX measures and calculated columns to perform <b>aggregations</b> and <b>derive additional insights</b> from the dataset.
+            Used the resulting <b>Power Bl dashboard</b> to select players for various categories (Goalkeeper, Defenders, Midfielders, Forwards) and ultimately choose the top 11 players to play.</p>
+            
+          </div> -->
+
+          <!-- Blog Post 5
+          <div class="blog-item">
+            <h3>ML-Based Web Application for Image Classification</h3>
+            <img src="assets/img/sport.jpg" alt="Blog Post 5">
+            <h5>[Web scrapping | OpenCV | Flask server | UI]</h5>
+            <p>Conceptualized a framework for classifying sports celebrity image from web scraping to collect images. Executed <b>data pre-processing</b> through <b>OpenCV library</b> for face and eyes detection and Haar cascade classifiers technique, to eliminate image that didn’t contains at least two eyes; using <b>SVM, logistic regression and random
+              forest</b>, for evaluating model performance. Building the <b>user interface (UI) website</b> with <b>HTML, CSS, JavaScript, and jQuery</b>, integrating a drag-and-drop feature for users to upload sports celebrity images. Utilizing <b>AJAX</b> to communicate with the <b>Python Flask</b> backend for image classification and presenting the classification results on the UI.</p>
+          </div> -->
+
+          <!-- Blog Post 6
+          <div class="blog-item">
+            <h3>HR Employee attrition PowerBI Dashboard </h3>
+            <img src="assets/img/HR_EMPLOYEE_PowerBI.PNG" alt="Blog Post 6">
+            <h5>[Power BI | DAX | KPI | Visualisation]</h5>
+            <p>The dataset focuses on HR employee attrition, highlighting key attributes such as age, department, gender, hourly rate, 
+              job role and performance rating. Power BI leverages these attributes for insightful analysis through <b> Data Analysis 
+                Expressions (DAX)</b>, enabling the creation of <b>dynamic visualizations, dashboards, and reports</b>. This integration 
+                with Power BI allows for the development of specific <b>Key Performance Indicators (KPIs) </b> that offer nuanced insights 
+              into workforce dynamics.</p>
+            
+            <div class="button-container">
+              <a href="https://github.com/rayaneB0t/PowerBI-HR-employee-attrition.git" class="btn">Github Link</a>
+            </div>
+          </div> -->
+
+
+        </div>
+      </div>
+    </section>
+  </section><!-- End Projects Section -->
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">

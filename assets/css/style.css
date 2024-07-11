@@ -58,7 +58,6 @@ h6 {
 }
 
 
-
 /*------------------------------------- 
               BLOG
 ---------------------------------------*/
@@ -70,7 +69,7 @@ h6 {
 
 .blog-item {
   flex-basis: calc(33.333% - 20px); /* Adjust this value as needed */
-  background-color: #f9f9f9;
+  background-color: rgb(249, 246, 242);
   padding: 20px;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -150,6 +149,7 @@ h6 {
   text-align: justify;
 }
 
+
 .blog-item a {
   display: inline-block;
   margin-top: 15px;
@@ -164,8 +164,6 @@ h6 {
 .blog-item a:hover {
   background-color: #0d79bc;
 }
-
-
 
 
 /*--------------------------------------------------------------
@@ -398,6 +396,19 @@ h6 {
   color: var(--accent-color);
   line-height: 0;
 }
+
+.about .center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
 
 /* ----------------------- QUOTE -----------------------*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
@@ -928,7 +939,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume {
-  background-color: rgb(241,241, 241);
+  background-color: rgb(249, 246, 242);
 }
 
 .resume .resume-title {
@@ -994,5 +1005,5 @@ section {
 # achivements
 --------------------------------------------------------------*/
 .achivements {
-  background-color: rgb(241,241, 241);
+  background-color: rgb(249, 246, 242);
 }

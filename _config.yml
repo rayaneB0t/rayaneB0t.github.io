@@ -1,3 +1,18 @@
+# Run Locally: 
+  # bundle ->  bundle exec jekyll s
+
+#PUSH ON GITHUB
+  # git add .
+  # git commit -m 'add post'
+  # git push origin main
+
+  # git push --force origin main
+  #---------------------------------------------------------
+
+#git commit --allow-empty -m "Trigger rebuild"
+#git push origin main
+
+
 # The Site Configuration
 
 # Import the theme

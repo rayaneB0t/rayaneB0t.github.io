@@ -25,7 +25,7 @@ Quick overview of my background and achievements:
 - **MSc in Computer Science - Artificial Intelligence**  
   **Heriot-Watt University** - Edinburgh, UK (Sep 2022 – Jun 2024)  
    - Grade: **2:1 / A-**
-   - Dissertation Thesis: "Investigating the role of multi-modal and uni-modal communication in developing trust in human-robot interaction with Furhat Robot" - [[Read the Full Article](https://example.com)] 
+   - Dissertation Thesis: "Investigating the role of multi-modal and uni-modal communication in developing trust in human-robot interaction with Furhat Robot" - [[Read the Full Article](https://rayaneb0t.github.io/posts/Master-Dissertation/)] 
 
 - **MSci Engineering - Networks and Intelligent Systems**  
   **ECAM-EPMI** - Paris, FR (Sep 2018 – Jun 2022)  
@@ -44,10 +44,10 @@ Quick overview of my background and achievements:
 ---
 
 ## 🏆 Publications & Achievements
-- **ARXIV Publication** – *September 2023* : Published research on [insert specific topic if available].  - [[Read the Full Article](https://example.com)] 
-- **Participation at IEEE-ROMAN 2023 Conference** – *August 2023, South Korea* : Presented innovative solutions in robotics and intelligent systems.  - [[Read the Full Article](https://example.com)] 
-- **3rd Place** **Hackathon at The National Robotarium** – *October 2023* : Developed a cutting-edge project leveraging AI and robotics. 
-- **4th Place** **RedBull Basement World Finals** – *2021* : Represented [Country/University] with an impactful innovation project.
+- **ARXIV Publication** – *September 2023* : Published research on [insert specific topic if available].  - [[Read the Full Article](https://rayaneb0t.github.io/posts/arXiv-Publication/)] 
+- **Participation at IEEE-ROMAN 2023 Conference** – *August 2023, South Korea* : Presented innovative solutions in robotics and intelligent systems.  - [[Read the Full Article](https://rayaneb0t.github.io/posts/IEEE-ROMAN/)] 
+- **3rd Place** **Hackathon at The National Robotarium** – *October 2023* : Developed a cutting-edge project leveraging AI and robotics. - [[Read the Full Article](https://rayaneb0t.github.io/posts/Hackaton/)] 
+- **4th Place** **RedBull Basement World Finals** – *2021* : Represented ECAM-EPMI with an impactful innovation project.
 
 
 ---

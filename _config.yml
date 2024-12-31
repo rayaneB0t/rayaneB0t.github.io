@@ -17,6 +17,8 @@ timezone: Europe/Paris
 
 #Allow future posts
 future: true
+runs-on: ubuntu-22.04
+
 
 title: Rayane Tarkany # the main title
 

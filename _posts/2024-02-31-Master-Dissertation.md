@@ -2,8 +2,8 @@
 layout: post
 title: "Master's Dissertation"
 date: 2024-02-31 10:00:00 +0000
-categories: [AI, LLM]
-tags: [AI, Generative AI, LLM, GPT]
+categories: [Achievements, Dissertation]
+tags: [HRI]
 ---
 
 ## Introduction

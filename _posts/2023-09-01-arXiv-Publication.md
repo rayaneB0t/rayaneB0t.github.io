@@ -2,8 +2,8 @@
 layout: post
 title: "Publication arXiv"
 date: 2023-09-01 10:00:00 +0000
-categories: [AI, LLM]
-tags: [AI, Generative AI, LLM, GPT]
+categories: [Achievements, Publication]
+tags: [Arxiv, Furhat Robot]
 ---
 
 ## DEVELOPING A ROBOT THAT GIVES DIRECTIONS LIKE A HUMAN

@@ -27,7 +27,7 @@ The goal of tokenization is to transform raw text (which is inherently unstructu
 ## Types of Tokenization
 Tokenization approaches range from simple whitespace splitting to sophisticated subword tokenizers that reduce out-of-vocabulary (OOV) issues. Let’s look at some common methods:
 
-### Word-level Tokenization
+1. Word-level Tokenization
 A word-level tokenizer splits text using spaces and punctuation marks. For instance, the sentence:
 
 "I love NLP." becomes tokens like: ["I", "love", "NLP", "."]
@@ -35,7 +35,7 @@ A word-level tokenizer splits text using spaces and punctuation marks. For insta
 - Pros: Simple to implement, intuitive.
 - Cons: Large vocabularies, struggles with “unknown” words, morphological variations, and languages that don’t use spaces.
 
-### Subword Tokenization (BPE / WordPiece / SentencePiece)
+2. Subword Tokenization (BPE / WordPiece / SentencePiece)
 
 In modern NLP—especially for Transformers and LLMs—subword tokenization is dominant. It strikes a balance between word-level and character-level approaches by splitting rare words into more frequent “subwords”:
 
@@ -51,7 +51,7 @@ For example, with subword tokenization (using WordPiece):
 - Pros: Reduces the size of the vocabulary while also dealing gracefully with unknown or rare words (OOV words become a combination of subwords).
 - Cons: Slightly more complex to implement, requires specific tokenization libraries.
 
-### Character-level Tokenization
+3. Character-level Tokenization
 Here, the text is split into individual characters, including punctuation and special symbols. For example:
 
 "Cat" → ["C", "a", "t"]
@@ -60,8 +60,23 @@ Here, the text is split into individual characters, including punctuation and sp
 
 - Cons: Longer sequence lengths, can be harder to learn meaningful semantic relationships solely from individual characters.
 
-### Byte-level Tokenization
+4. Byte-level Tokenization
 Popularized by GPT-2 and GPT-3, byte-level tokenization (e.g., Byte-Level BPE) treats text as a stream of raw bytes, effectively capturing every character. This approach can handle nearly all text variations, special Unicode characters, and emojis.
+
+
+## What If the Word Is Not in the Vocabulary? (Out-of-Vocabulary, OOV)
+Out-of-vocabulary (OOV) refers to any word or token that does not appear in a model’s known vocabulary. If the model encounters a brand-new slang term, a rare technical term, or a spelling variant it hasn’t seen before, that word is considered out-of-vocabulary. 
+
+This can lead to:
+- Misclassifications: The model may produce incorrect predictions if it can’t properly understand the missing word.
+- “Unknown” Token Outputs: Traditional tokenizers or older NLP models might label the entire word as UNK.
+
+## How Modern Approaches Handle OOV ?
+- Subword Tokenization: Methods like BPE, WordPiece, and SentencePiece minimize OOV issues by splitting rare words into smaller, more familiar subword units. Even if the entire word is new, at least part of it is recognized.
+- Character or Byte-level Tokenization: By tokenizing at the character or byte level, you effectively eliminate OOV problems—though you pay a price in longer token sequences and potentially slower training.
+
+OOV handling is critical for real-world applications. Language evolves quickly, with new terms, slang, and domain-specific jargon appearing regularly. Choosing a tokenizer that gracefully manages these unseen words helps maintain model performance as your input data evolves.
+
 
 ## Tools & Libraries
 - <b> Hugging Face Transformers</b>: Provides state-of-the-art tokenizers (e.g., BERT, GPT, RoBERTa) and includes the tokenizers library for custom training.

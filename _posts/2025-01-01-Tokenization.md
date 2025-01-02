@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Tokenization"
+title: "A Comprehensive Guide to Tokenization"
 date: 2025-01-01 10:00:00 +0000
 categories: [Concept]
 tags: [Tokenization]
 ---
 
-# A Comprehensive Guide to Tokenization
 Tokenization is a foundational step in Natural Language Processing (NLP). Whether you’re building a sentiment analysis model, a text classifier, or a large language model (LLM) like GPT, understanding tokenization is essential. 
 
 In this article, we’ll explore what tokenization is, why it matters, the different approaches, and best practices in modern NLP pipelines.

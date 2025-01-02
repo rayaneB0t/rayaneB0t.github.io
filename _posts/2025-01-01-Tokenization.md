@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tokenization"
-date: 2025-01-02 10:00:00 +0000
+date: 2025-01-01 10:00:00 +0000
 categories: [Concept]
 tags: [Tokenization]
 ---
@@ -18,10 +18,10 @@ In this article, we’ll explore what tokenization is, why it matters, the diffe
 ## What Is Tokenization?
 Tokenization is the process of breaking a piece of text (e.g., a sentence or paragraph) into smaller units called “tokens.” Each token can be:
 
-- A word (e.g., “cat”),
-- A subword (e.g., “cat” split into “c” and “at”),
-- A character (e.g., “c”, “a”, “t”), or
-- Punctuation symbols (e.g., “,”, “.”, “!”).
+- A <b>word</b> (e.g., “cat”),
+- A <b>subword</b> (e.g., “cat” split into “c” and “at”),
+- A <b>character</b> (e.g., “c”, “a”, “t”), or
+- <b>Punctuation symbols</b> (e.g., “,”, “.”, “!”).
 
 The goal of tokenization is to transform raw text (which is inherently unstructured data) into a structured form that a machine learning model can interpret and process.
 
@@ -40,9 +40,9 @@ A word-level tokenizer splits text using spaces and punctuation marks. For insta
 
 In modern NLP—especially for Transformers and LLMs—subword tokenization is dominant. It strikes a balance between word-level and character-level approaches by splitting rare words into more frequent “subwords”:
 
-- Byte-Pair Encoding (BPE): Greedily merges character pairs to form subwords.
-- WordPiece: Used by models like BERT; merges subwords based on maximum likelihood of subword sequences.
-- SentencePiece: A newer approach that can handle whitespace uniformly, commonly used by T5 and XLNet.
+- <b>Byte-Pair Encoding (BPE)</b>: Greedily merges character pairs to form subwords.
+- <b>WordPiece</b>: Used by models like BERT; merges subwords based on maximum likelihood of subword sequences.
+- <b>SentencePiece</b>: A newer approach that can handle whitespace uniformly, commonly used by T5 and XLNet.
 
 For example, with subword tokenization (using WordPiece):
 
@@ -65,11 +65,11 @@ Here, the text is split into individual characters, including punctuation and sp
 Popularized by GPT-2 and GPT-3, byte-level tokenization (e.g., Byte-Level BPE) treats text as a stream of raw bytes, effectively capturing every character. This approach can handle nearly all text variations, special Unicode characters, and emojis.
 
 ## Tools & Libraries
-- Hugging Face Transformers: Provides state-of-the-art tokenizers (e.g., BERT, GPT, RoBERTa) and includes the tokenizers library for custom training.
-- NLTK (Natural Language Toolkit): Offers basic word and sentence tokenizers.
-- SpaCy: Efficient, production-ready tokenization for multiple languages.
-- SentencePiece: Framework for language-independent subword tokenization.
-- Byte-Pair Encoding (BPE): Often implemented in the above libraries or in standalone scripts.
+- <b> Hugging Face Transformers</b>: Provides state-of-the-art tokenizers (e.g., BERT, GPT, RoBERTa) and includes the tokenizers library for custom training.
+- <b> NLTK (Natural Language Toolkit)</b>: Offers basic word and sentence tokenizers.
+- <b> SpaCy</b>: Efficient, production-ready tokenization for multiple languages.
+- <b> SentencePiece</b>: Framework for language-independent subword tokenization.
+- <b> Byte-Pair Encoding (BPE)</b> : Often implemented in the above libraries or in standalone scripts.
 
 ## Why Do We Need Tokenization?
 

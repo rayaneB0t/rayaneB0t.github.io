@@ -37,7 +37,7 @@ and so on...
 *Key Point: Tokenization and embeddings work hand-in-hand to convert raw text into a numeric format suitable for neural networks.*
 
 ## Why Do We Need Embeddings?
-- From Human-Readable Text to Machine-Readable Data: Computers (specifically, neural networks) can’t process raw text in its natural, unstructured form. They need **numbers—vectors—on** which to perform mathematical operations. Embeddings offer a clever way to represent words or tokens as **real-valued vectors** so that similar words (e.g., cat and feline) end up closer in that **vector space**.
+- From Human-Readable: Text to Machine-Readable Data: Computers (specifically, neural networks) can’t process raw text in its natural, unstructured form. They need **numbers—vectors—on** which to perform mathematical operations. Embeddings offer a clever way to represent words or tokens as **real-valued vectors** so that similar words (e.g., cat and feline) end up closer in that **vector space**.
 
 - Capturing Meaning & Context: A well-trained embedding might capture relationships and can encode conceptual meanings:
 > king – man + woman ≈ queen
@@ -63,7 +63,7 @@ Embeddings compress words into denser, lower-dimensional vectors (e.g., 300 or 7
 
 - **Contextual Embeddings (ELMo, BERT, GPT)** : Embeddings that change depending on context.
     - **ELMo**: Uses bidirectional LSTMs to generate context-sensitive word embeddings.
-    -**BERT / GPT**: Transformer-based models that produce embeddings which vary based on sentence context.
+    - **BERT / GPT**: Transformer-based models that produce embeddings which vary based on sentence context.
 
 -**Sentence/Document Embeddings**: methods like **Sentence-BERT** or **Doc2Vec** produce a single embedding for an entire sentence or document.
 

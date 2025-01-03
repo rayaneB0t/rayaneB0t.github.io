@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "From Tokenization to Embeddings"
-date: 2025-01-02 10:00:00 +0000
+title: "X"
+date: 2025-01-03 10:00:00 +0000
 categories: [Concept, NLP]
-tags: [Embeddings]
+tags: [X]
 ---
->**Reminder**: Proper tokenization is crucial before assigning embeddings. If you haven’t yet explored the basics of tokenization, be sure to review our [Tokenization Guide](https://rayaneb0t.github.io/posts/Tokenization/) to see how raw text becomes structured tokens.
+
+<!-- >**Reminder**: Proper tokenization is crucial before assigning embeddings. If you haven’t yet explored the basics of tokenization, be sure to review our [Tokenization Guide](https://rayaneb0t.github.io/posts/Tokenization/) to see how raw text becomes structured tokens.
 
 
 ## At which stage in the ML Workflow does Embeddings typically occur ? 
@@ -13,6 +14,6 @@ tags: [Embeddings]
 
 
 ## What is Embeddings ? 
-
+ -->
 
 <!-- ## Summary -->

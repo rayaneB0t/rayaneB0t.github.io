@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Tokenization to Embeddings: Building the Foundation of NLP"
+title: "From Tokenization to Embeddings"
 date: 2025-01-02 10:00:00 +0000
 categories: [Concept, NLP]
 tags: [Embeddings]
@@ -10,7 +10,7 @@ tags: [Embeddings]
 
 ## At which stage in the ML Workflow does Embeddings typically occur ? 
 ![Embeddings](/articles_img/Tokenization/ML_Flow.png){: style="width: 90%;" }
-???? CHANGE !!!!
+
 
 ## What is Emb ? 
 Embeddings are at the heart of modern Natural Language Processing (NLP), bridging the gap between human language and machine-friendly data. In essence, embeddings transform words (or other text units) into numerical vectors. These vectors capture semantic and syntactic relationships, enabling machine learning models to interpret and generate language effectively.

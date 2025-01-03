@@ -6,13 +6,17 @@ categories: [Concept, NLP]
 tags: [Embeddings]
 ---
 
+In modern Natural Language Processing (NLP), two core components often shape the performance of your models: **Tokenization** and **Embeddings**. In an earlier article, we explored how tokenization transforms raw text into discrete tokens. 
+Here, we’ll build upon that foundation to see how embeddings map those tokens into meaningful numerical representations. 
 > Read about [Tokenization](https://duckduckgo.com)
-
-In modern Natural Language Processing (NLP), two core components often shape the performance of your models: Tokenization and Embeddings. In an earlier article, we explored how tokenization transforms raw text into discrete tokens. Here, we’ll build upon that foundation to see how embeddings map those tokens into meaningful numerical representations. 
-
 
 ## At which stage in the ML Workflow does Embeddings typically occur ? 
 ![AI_Agents](/articles_img/Tokenization/ML_Flow.png){: style="width: 90%;" }
+
+
+## What Is Embeddings?
+
+
 
 
 

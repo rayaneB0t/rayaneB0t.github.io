@@ -65,7 +65,7 @@ Embeddings compress words into denser, lower-dimensional vectors (e.g., 300 or 7
     - **ELMo**: Uses bidirectional LSTMs to generate context-sensitive word embeddings.
     - **BERT / GPT**: Transformer-based models that produce embeddings which vary based on sentence context.
 
--**Sentence/Document Embeddings**: methods like **Sentence-BERT** or **Doc2Vec** produce a single embedding for an entire sentence or document.
+- **Sentence/Document Embeddings**: methods like **Sentence-BERT** or **Doc2Vec** produce a single embedding for an entire sentence or document.
 
 
 <!-- ## Summary -->

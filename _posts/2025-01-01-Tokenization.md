@@ -9,7 +9,7 @@ tags: [Tokenization]
 Tokenization is a foundational step in Natural Language Processing (NLP). Whether you’re building a sentiment analysis model, a text classifier, or a large language model (LLM) like GPT, understanding tokenization is essential. 
 
 ## At which stage in the ML Workflow does Tokenization typically occur ?
-![AI_Agents](/articles_img/Tokenization/ML_Flow.png){: style="width: 90%;" }
+![Tokenization_Flow](/articles_img/NLP/ML_Flow.png){: style="width: 90%;" }
 
 ## What Is Tokenization?
 Tokenization is the process of converts raw text (which is inherently unstructured data) into structured form of tokens, and each token is often mapped to a numeric ID (sometimes called a vocabulary index).
@@ -82,4 +82,4 @@ OOV handling is critical for real-world applications. Language evolves quickly, 
 - **Byte-Pair Encoding (BPE)** : Often implemented in the above libraries or in standalone scripts.
 
 ## Summary
-![Tokenization Summary](/articles_img/Tokenization/Tokenization_summary.png){: style="width: 90%;" }
+![Tokenization Summary](/articles_img/NLP/Tokenization_summary.png){: style="width: 90%;" }

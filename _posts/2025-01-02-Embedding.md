@@ -5,11 +5,11 @@ date: 2025-01-02 10:00:00 +0000
 categories: [Concept, NLP]
 tags: [Embeddings]
 ---
->**Reminder**: Proper tokenization is crucial before assigning embeddings. If you haven’t yet explored the basics of tokenization, be sure to review our [Tokenization Guide](https://duckduckgo.com) to see how raw text becomes structured tokens.
+>**Reminder**: Proper tokenization is crucial before assigning embeddings. If you haven’t yet explored the basics of tokenization, be sure to review our [Tokenization Guide](https://rayaneb0t.github.io/posts/Tokenization/) to see how raw text becomes structured tokens.
 
 
 ## At which stage in the ML Workflow does Embeddings typically occur ? 
-![Embeddings](/articles_img/Tokenization/ML_Flow.png){: style="width: 90%;" }
+![Embeddings_Flow](/articles_img/NLP/Embeddings_Flow.png){: style="width: 90%;" }
 
 
 ## What is Emb ? 
@@ -68,4 +68,4 @@ Embeddings compress words into denser, lower-dimensional vectors (e.g., 300 or 7
 -**Sentence/Document Embeddings**: methods like **Sentence-BERT** or **Doc2Vec** produce a single embedding for an entire sentence or document.
 
 
-## Summary
+<!-- ## Summary -->

@@ -13,7 +13,7 @@ tags: [Embeddings]
 
 
 ## What is Embeddings ? 
-Embeddings are at the heart of modern Natural Language Processing (NLP), bridging the gap between human language and machine-friendly data. In essence, embeddings transform words (or other text units) into numerical vectors. These vectors capture semantic and syntactic relationships, enabling machine learning models to interpret and generate language effectively.
+Embeddings are at the heart of modern Natural Language Processing (NLP), bridging the gap between human language and machine-friendly data. In essence, embeddings **transform words (or other text units) into numerical vectors**. These vectors capture semantic and syntactic relationships, enabling machine learning models to interpret and generate language effectively.
 
 ## Embeddings and Tokenization
 Before embeddings can be assigned, tokenization must split text into meaningful units (tokens). For example, the sentence:
@@ -27,8 +27,9 @@ might become:
 
 Once tokenization is done, each token is converted into an ID (e.g., “love” → 101, “lo” → 102, etc.). 
 
-Then these IDs are passed into an embedding layer which maps them to vectors. For example:
+Then these IDs are passed into an embedding layer which maps them to **continuous value vector**. 
 
+For example:
 > ["I", "love", "cats", "!"] → [10, 11, 12, 13] (IDs)
 - 10 → [0.12, -0.07, 0.44, ...] (embedding vector)
 - 11 → [0.50, 0.99, 0.13, ...]

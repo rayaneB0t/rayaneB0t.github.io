@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Tokenization to Embeddings"
-date: 2025-01-02 10:00:00 +0000
+date: 2025-01-04 10:00:00 +0000
 categories: [Concept, NLP]
 tags: [Embeddings]
 ---

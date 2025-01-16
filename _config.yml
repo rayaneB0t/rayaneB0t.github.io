@@ -242,6 +242,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-google_analytics:
-  id: "G-NP5QV65M2R" # replace with your actual Google Analytics Measurement ID

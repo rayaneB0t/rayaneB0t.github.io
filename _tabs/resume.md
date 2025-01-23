@@ -9,7 +9,7 @@ order: 2
 I am a passionate AI enthusiast and a seasoned software developer with experience in artificial intelligence, machine learning, and data analysis. 
 
 <div style="display: flex; gap: 20px;">
-  <a href="/pdf/ResumeFR.pdf" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px; text-align: center;">
+  <a href="/pdf/ResumeENG.pdf" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px; text-align: center;">
     🇬🇧 English Resume
   </a>
   <a href="/pdf/ResumeFR.pdf" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px; text-align: center;">
@@ -23,12 +23,12 @@ Quick overview of my background and achievements:
 ## 🎓 Education
 
 - **MSc in Computer Science - Artificial Intelligence**  
-  **Heriot-Watt University** - Edinburgh, UK (Sep 2022 – Jun 2024)  
+  **Heriot-Watt University** - Edinburgh, UK (2022 – 2024)  
    - Grade: **2:1 / A-**
    - Dissertation Thesis: "Investigating the role of multi-modal and uni-modal communication in developing trust in human-robot interaction with Furhat Robot" - [[Read the Full Article](https://rayaneb0t.github.io/posts/Master-Dissertation/)] 
 
-- **MSci Engineering - Networks and Intelligent Systems**  
-  **ECAM-EPMI** - Paris, FR (Sep 2018 – Jun 2022)  
+- **Engineer Diploma - Networks and Intelligent Systems**  
+  **ECAM-EPMI** - Paris, FR (2018 – 2022)  
   Rank: **Top 10**
 
 ---

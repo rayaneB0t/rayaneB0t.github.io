@@ -36,7 +36,7 @@ future: true
 
 title: Rayane Tarkany # the main title
 
-tagline: Study Blog specializing in Large Language Models (LLMs) # it will display as the subtitle
+tagline: Breaking Down LLMs, RAG, and Generative AI for Everyone # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Personnal, blog, LLM, generative AI

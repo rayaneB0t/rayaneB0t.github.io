@@ -56,16 +56,16 @@ Quick overview of my background and achievements:
 **NVIDIA Certified Associate - Generative AI LLMs** (Expected March 2025)
 
 **Microsoft: Data Analysis and Visualization with Power BI**, (2024)
-    - **Skills:** Data Analysis, Power BI, Power BI DAX, Data Modeling and Relationships
-    - **Credential:** [Show Credential](https://coursera.org/verify/43LB5QJ7N8BH)
+  - Skills: Data Analysis, Power BI, Power BI DAX, Data Modeling and Relationships
+  - [Show Credential](https://coursera.org/verify/43LB5QJ7N8BH)
 
 **IBM: Introduction to Agile Development and Scrum**, (2024)  
-    - **Skills:** Agile Project Managemen, Scrum Framework, Team Collaboration  
-    - **Credential:** [Show Credential](https://coursera.org/verify/BRQDZZNPGA4C)
+  - Skills: Agile Project Managemen, Scrum Framework, Team Collaboration  
+  - [Show Credential](https://coursera.org/verify/BRQDZZNPGA4C)
 
 **IBM: Machine Learning with Python**, (2023)  
-    - **Skills:** Python (Programming Language), Data Science, Software Development, Analytics, Machine Learning  
-    - **Credential:** [Show Credential](https://www.coursera.org/account/accomplishments/records/CH5TCC5KCWCA)
+  - Skills: Python (Programming Language), Data Science, Software Development, Analytics, Machine Learning  
+  - [Show Credential](https://www.coursera.org/account/accomplishments/records/CH5TCC5KCWCA)
 
 ## 📬 Contact Information
 - **Location:** Paris (France) / Edinburgh (UK) 

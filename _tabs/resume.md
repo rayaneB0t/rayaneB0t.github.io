@@ -37,7 +37,7 @@ Quick overview of my background and achievements:
 
 | Role                     | Organization               | Location  | Duration           |
 |--------------------------|----------------------------|-----------|--------------------|
-| **AI Research Assistant** | The National Robotarium    | UK        | Jul 2024 – Aug 2024 |
+| **AI Research Assistant** | The National Robotarium    | UK        | Jun 2024 – Aug 2024 |
 | **Data Analyst Splunk**   | ATOS                       | France    | Nov 2021 – Mar 2022 |
 | **Front End Developer**   | Big Data Services          | France    | Jul 2020 – Oct 2020 |
 
@@ -52,6 +52,8 @@ Quick overview of my background and achievements:
 
 ---
 ## 📜 Certifications
+
+**NVIDIA Certified Associate - Generative AI LLMs** (Expected March 2025)
 
 **Microsoft: Data Analysis and Visualization with Power BI**, (2024)
     - **Skills:** Data Analysis, Power BI, Power BI DAX, Data Modeling and Relationships
